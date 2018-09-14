@@ -1,0 +1,41 @@
+<!--
+//Leigha Brown
+//9-9-18
+//costly words program
+//DOCTYPE html5-->
+<html>
+	<head>
+	<title>Costly Words</title>
+	<script src="costlyWords.js"></script>
+	</head>
+		<body>
+
+		<h1>Costly Words</h1>
+		<p>Enter a phrase into the box and click calculate to see how much the phrase will cost.</p>
+		<hr>
+		<table>
+		<tbody>
+		 <tr>
+			<td>Phrase</td>
+			<td><input id ="phrase_id" type="text"></td>
+		</tr>
+		<td>
+		<tr>
+			<td>Price</td>
+			<td><input id ="price_id" type="number"></td>
+		</tr>
+		<td>
+			<input type ="button" value="Calculate Cost" onclick="calculateCost()">
+		  </td>
+		  <td>
+			<input type ="button" value="start over">
+		  </td>
+		  </tr>	
+		 </tbody>
+		 </table>
+		 <hr />
+		 <p id="totalPriceMessage_id" ></p>
+
+
+	</body>
+</html>
