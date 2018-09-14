@@ -1,0 +1,45 @@
+<!DOCTTYPE html5>
+<html>
+<head>
+   <title>Calorie Assessment</title>
+   
+</head>
+<body>
+    <h1>Judge Me Not</h1>
+	<hr />
+	<table>
+	  <tr><td>First Name</td>
+	      <td><input id="firstName_id" type="text"></td>
+	  </tr>
+	  <tr><td>Last Name</td>
+	      <td><input id="lastName_id" type="text"></td>
+	  </tr>	
+      <tr><td>Gender</td>
+	      <td><select id="gender_id">
+		      <option value="NoGender"> </option>
+			  <option value="M">Male</option>
+			  <option value="F">Female</option>
+			  </select></td>
+      </tr>	
+      <tr><td>Goal</td>
+	      <td><select id="goal_id">
+		      <option value="NoGoal"> </option>
+			  <option value="LW">Lose Weight</option>
+			  <option value="MW">Maintain Weight</option>
+			  </select></td>
+      </tr>
+	  <tr><td>Calories</td>
+	      <td><input id="calories_id" type="text"></td>
+	  </tr>	 
+      <tr>
+	  <td><input type="button" value="Perform Assessment" onclick="performAssessment()"></td>
+	  <td><input type="button" value="Start Over"></td>
+      </tr>	  
+	</table>
+	<hr />
+	<p id="welcomeMsg_id"></p>
+	<p id="maxCalMsg_id"></p>
+	<p id="resultMsg_id"></p>
+	<script src="calories.js"></script>
+</body>
+</html>
